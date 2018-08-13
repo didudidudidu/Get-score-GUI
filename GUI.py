@@ -29,15 +29,16 @@ class Application(Frame):
         self.zhanghaoLabel = Label(self, text="账号：")
         self.zhanghaoLabel.grid(row=0,column=0)
         # self.zhanghao_value = StringVar()
-        # self.zhanghao_value.set('223101')
+        # self.zhanghao_value.set('此处可设置学号默认值')
         # self.zhanghaoInput = Entry(self,textvariable=self.zhanghao_value)
         self.zhanghaoInput = Entry(self)
         self.zhanghaoInput.grid(row=0, column=1)
 
         self.mimaLabel=Label(self,text="密码：")
         self.mimaLabel.grid(row=1,column=0)
+
         # self.mima_value = StringVar()
-        # self.mima_value.set('a321654987')
+        # self.mima_value.set('此处可设置密码默认值')
         # self.mimaInput = Entry(self,show="*",textvariable=self.mima_value)
         self.mimaInput = Entry(self, show="*")
         self.mimaInput.grid(row=1, column=1)
